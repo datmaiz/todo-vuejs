@@ -1,0 +1,37 @@
+@import "base.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priority.medium {
+  background-color: rgba(80, 161, 243, 0.1);
+  border: 1px solid rgba(1, 93, 243);
+  color: rgba(1, 93, 243);
+  font-weight: 300;
+}
+
+.priority.high {
+  background-color: rgba(192, 0, 0, 0.1);
+  border: 1px solid rgba(192, 0, 0);
+  color: rgba(192, 0, 0);
+  font-weight: 300;
+}
+
+.priority.low {
+  background-color: rgba(255, 234, 9, 0.1);
+  border: 1px solid rgba(255, 228, 65);
+  color: rgb(255, 228, 65);
+  font-weight: 300;
+}
